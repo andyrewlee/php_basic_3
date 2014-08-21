@@ -1,0 +1,71 @@
+#container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 90px;
+}
+
+#left, #middle, #right, #right-hidden, #left-hidden {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#left {
+    width: 250px;
+    background-color:red;
+    height: 250px;
+}
+
+#left-hidden {
+    width: 250px;
+    height: 250px;
+    visibility: hidden;
+}
+
+#right {
+    width: 250px;
+    background-color:red;
+    height: 250px;
+}
+
+#right-hidden {
+    width: 250px;
+    height: 250px;
+    visibility: hidden;
+}
+
+#middle {
+    width: 250px;
+    height: 250px;
+}
+
+#still-guessing-hidden {
+    display: none;
+}
+
+#correct-guess-hidden {
+    display: none;
+}
+
+#correct-guess {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    vertical-align: top;
+}
+
+#correct-guess h2 {
+    margin: 0;
+    padding-top: 90px;
+}
+
+
